@@ -10,7 +10,7 @@ body{
     width: 90%;
     margin: auto;
     font-family: 'Open Sans', sans-serif;
-    margin-bottom: 1000px;
+    margin-bottom: 100px;
 }
 .navbar{
     display: flex;
@@ -18,6 +18,12 @@ body{
     align-items: center;
     width: auto;
     height: 100px;
+    position: fixed;
+    background-color: hsl(0, 0%, 100%);
+    z-index: 12;
+    top: 0;
+    left: 55px;
+    right:0;
     
     
 }
@@ -44,6 +50,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-top: 100px;
 
 }
 
@@ -109,6 +116,11 @@ button:hover{
     flex-direction: row;
     justify-content: space-between;
     margin-top: 90px;
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
    
 
 
@@ -249,21 +261,56 @@ hr{
 .footer-container{
     display: flex;
     flex-direction: row;
-    /* background-color:hsl(243, 87%, 12%); */
-    background-color: green;
-    justify-content: space-around;
+    background-color:hsl(243, 87%, 12%);
+    justify-content: space-between;
     align-items: center;
     height: 200px;
    
 }
-
+.contact{
+    margin-left: 20px;
+    margin-top: -20px;
+}
 
 .footer-logo-container{
     height: 30px;
     margin-bottom: 5px;
 }
 
-.footer-logo{
+.footer-logo-container img{
     height: 100%;
+    filter:invert(97%) sepia(0%) saturate(7500%) hue-rotate(166deg)brightness(109%) contrast(102%);
     
+}
+.phone span{
+    color: hsl(0, 0%, 75%);
+    font-weight: 400;
+}
+
+.email span{
+    color: hsl(0, 0%, 75%);
+    font-weight: 400;
+}
+.pages div{
+    margin-bottom: 8px;
+    margin-left: -30px;
+   
+}
+
+
+.pages div a{
+    color: hsl(0, 0%, 75%);
+    font-size: 16px;
+    text-decoration: none;
+   
+}
+
+.social-logo{
+    padding-right: 20px;
+}
+
+.social-logo i{
+    filter:invert(97%) sepia(0%) saturate(7500%) hue-rotate(166deg)brightness(109%) contrast(102%);
+   
+    margin-right: 2rem;
 }
