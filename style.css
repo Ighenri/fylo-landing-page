@@ -1,0 +1,246 @@
+
+/* body{
+    font-family: 'Raleway', sans-serif;
+  
+} */
+html{
+    width: 100%;
+}
+body{
+    width: 90%;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1000px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 100px;
+    
+    
+}
+.logo-container{
+    height: 30px;
+}
+
+.logo{
+    height: 100%;
+}
+
+.menu-content a{
+    margin-right: 25px;
+    text-decoration: none;
+    font-size: 16px;
+    color: hsl(0, 0%, 75%);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    
+}
+
+.hero-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.left-hero h2{
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    line-height: 45px;
+    color: hsl(243, 87%, 12%);
+    margin-top: -100px;
+}
+.left-hero p{
+    font-size: 16px;
+    margin-top: -10px;
+    color: hsl(238, 22%, 44%);
+    font-weight: 400;
+    
+}
+.input{
+    padding: 7px 55px 7px 7px;
+    box-shadow: 2px 3px 2px  hsl(0, 0%, 75%);
+    margin-right: 10px;
+    height: 30px;
+    border-radius: 4px;
+    border: 2px solid  hsl(0, 0%, 75%);
+    
+}
+.input::placeholder{
+    font-size: 12px;
+    color:  hsl(0, 0%, 75%);
+}
+
+button{
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    padding: 17px 55px 17px 55px;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 4px;
+    border: none;
+    transition: ease-in-out 0.5s;
+
+}
+button:hover{
+    cursor: pointer;
+    background-color:  hsl(0, 0%, 75%);
+    color: hsl(224, 93%, 58%);
+}
+
+.right-hero{
+    height: 400px;
+   
+
+}
+
+.illustration1{
+    height: 100%;
+}
+
+.hero2-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 90px;
+   
+
+
+}
+.left-hero2{
+    position: relative;
+}
+.left-hero2 h2{
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    line-height: 45px;
+    color: hsl(243, 87%, 12%);
+    
+    
+}
+.left-hero2 p{
+    font-size: 16px;
+    margin-top: -10px;
+    color: hsl(238, 22%, 44%);
+    font-weight: 400;
+}
+
+.span{
+    margin-bottom: -3px ;
+}
+
+.highlight{
+    color: hsl(170, 45%, 43%);
+    font-weight: 400;
+}
+
+
+.right-hero2{
+    height: 400px;
+   
+
+}
+
+.illustration2{
+    height: 100%;
+
+}
+
+hr{
+    width: 30%;
+    margin-left: -3px;
+    margin-top: -11px;
+    border: 1px solid hsl(170, 45%, 43%);;
+}
+
+.comment-absolute{
+    position: absolute;
+    top: 820px;
+    left: 68px;
+    background-color: white;
+    padding:5px 25px;
+    color: hsl(238, 22%, 44%);
+    border-radius: 6px;
+    
+
+
+}
+
+.comment-absolute img{
+    margin-bottom: -10px;
+}
+.profile-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   margin-top: -20px;
+   
+}
+
+
+
+.avatar{
+    height: 24px;
+    border: none;
+    margin-right: 10px;
+  
+    
+}
+.avatar img{
+    height: 100%;
+    border-radius: 12px;
+}
+
+.author-name{
+    margin-bottom: 0px;
+    color: hsl(243, 87%, 12%);
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.author-position{
+    margin-top: 0px;
+    color: hsl(238, 22%, 44%);
+    font-size: 14px;
+}
+
+.desaturated-blue{
+    background-color: hsl(238, 22%, 44%);
+    height: 250px;
+}
+
+.get-access-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    margin-top: 60px;
+}
+
+.left-get-access h3{
+    font-size: 25px;
+    color: hsl(240, 75%, 98%)
+}
+.left-get-access p{
+    color: hsl(0, 0%, 75%);
+    font-weight: 400;
+}
+
+.input-button{
+    padding: 8px 150px 8px 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.input-button::placeholder{
+    font-size: 10px;
+    color:  hsl(0, 0%, 75%);
