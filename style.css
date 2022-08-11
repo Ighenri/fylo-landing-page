@@ -244,3 +244,26 @@ hr{
 .input-button::placeholder{
     font-size: 10px;
     color:  hsl(0, 0%, 75%);
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    /* background-color:hsl(243, 87%, 12%); */
+    background-color: green;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+   
+}
+
+
+.footer-logo-container{
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+.footer-logo{
+    height: 100%;
+    
+}
